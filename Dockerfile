@@ -1,5 +1,5 @@
 # Build the app on top of Ubuntu
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20201014
 
 RUN echo 'deb http://ppa.launchpad.net/chris-lea/redis-server/ubuntu xenial main' > /etc/apt/sources.list.d/redis-server.list && apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C7917B12
 
